@@ -1,0 +1,133 @@
+*{ 
+text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+}
+nav{
+    background-color: rgba(255, 192, 203, 0.568);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+
+}
+#nav-items{
+    display: flex;
+    text-align: center;
+    gap: 15px;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 20px;
+   font-weight: 700;
+   font-style: oblique;
+}
+
+.content{
+    display: flex;
+}
+ header{
+    background-image: url(../assets/images/image94.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 100vh;
+    background-position: center;
+    
+ }
+ .content-item{
+    margin: auto;
+    /* width: 30%; */
+    padding: 10px;
+    margin-top: 15vh;
+    
+ }
+ .text-item{
+   font-size: xx-large; 
+   align-items: center;
+   font-style: italic;
+ }
+.text-white{
+    color: whitesmoke;
+}
+ .header{
+    font-size: 30px;
+    font-style: italic;
+ }
+
+ .main-div{
+    display: flex;
+    gap: 30px;
+    background-color: rgba(255, 182, 193, 0.589);
+    /* padding: 5px;  */
+    height: 60vh;
+    /* align-content: center; */
+    align-items: center;
+ }
+
+ .first{
+    padding: 20px ;
+ }
+ .contain{
+    background-image: url(../assets/images/bg_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+display: flex;
+justify-content:end;
+align-content: center;
+align-items: center;
+ }
+
+ .mine{
+    width: 50%;
+    /* justify-content: end; */
+    color: whitesmoke;
+
+ }
+.mine h1{
+margin: 20px;
+font-size: 40px;
+font-style: oblique;
+}
+.mine h2{
+    margin-bottom: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.mine p{
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.mine button{
+    margin-left: 200px;
+    padding: 20px;
+    border:1px solid ;
+    border-radius: 30%;
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    
+}
+
+.item-container{
+    text-align: center;
+    padding: 5px;
+    font-style: oblique;
+    font-size: 20px;
+}
+ 
+.first{
+    font-size: 30px;
+}
+
+.content-item h1{
+    font-size: 50px;
+    text-align:justify;
+}
+.text-white{
+padding-top: 40px;
+}
